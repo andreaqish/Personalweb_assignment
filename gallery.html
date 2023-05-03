@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Gallery</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="gallery.css">
+</head>
+<body>
+<!-- Header -->
+  <header>
+  <nav>
+    <div class="menu">
+      <div class="logo">
+        <a href="home.html"><img src="images/logo1.png" class="logo"> </a>
+      </div>
+      <ul>
+        <li><a href="biography.html">About Me</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="timetable.html">Time Table</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="download.html">Download</a></li>
+        <li><a href="link.html">Link</a></li>
+        <li><a href="login.html">Log In</a></li>
+        <li><a href="signup.html">Sign Up</a></li>
+      </ul>
+    </div>
+  </nav>
+  </header>
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-content" style="max-width:1500px">
+
+<!-- Header -->
+<header class="w3-center w3-margin-bottom">
+  <h1 style="color:LightSkyBlue;"><b>Photos</b></h1>
+  <p style="color:snow;"><b>Photography, it is my passion.</b></p>
+  <p class="w3-padding-16"><button class="w3-button w3-black" onclick="myFunction()">Toggle Grid Padding</button></p>
+</header>
+</div>
+
+<!-- Photo Grid -->
+<div class="w3-row" id="myGrid" style="margin-bottom:128px">
+
+  <div class="w3-third">
+    <img src="images/men.jpg" style="width:100%">
+    <img src="images/cars.jpg" style="width:100%">
+    <img src="images/kls.jpg" style="width:100%">
+  </div>
+
+  <div class="w3-third">
+    <img src="images/mos.jpg" style="width:100%">
+    <img src="images/sky3.jpg" style="width:100%">
+	<img src="images/sky1.jpg" style="width:100%">
+  </div>
+
+  <div class="w3-third">
+    <img src="images/bb.jpg" style="width:100%">
+    <img src="images/bp.jpg" style="width:100%">
+	<img src="images/sky2.jpg" style="width:100%">
+  </div>
+</div>
+<!-- audio grid -->
+<header class="w3-center w3-margin-bottom">
+  <h1 style="color:LightSkyBlue;"><b>Music</b></h1>
+  <p style="color:snow;"><b> Music makes us One.</b></p>
+
+</header>
+<div class="w3-row" id="myGrid" style="margin-bottom:500px" style="margin:500px">
+  <div class="w3-third">
+  <h4>Lucky.</h4>
+  <p style="background-color:powderblue;">~Jason Mraz</p>
+<audio controls>
+	<source src="images/lucky.mp3" type="audio/mp3">
+</audio>
+
+<h4>Doughnut.</h4>
+<p style="background-color:rgb(148, 167, 169);">~TWICE</p>.
+<audio controls>
+	<source src="images/d.mp3" type="audio/mp3">
+</audio>
+  </div>
+  
+    <div class="w3-third">
+  <h4>Golden hour.</h4>
+  <p style="background-color:rgb(148, 167, 169);">~Jake</p>      
+<audio controls>
+	<source src="images/gh.mp3" type="audio/mp3">
+</audio>
+
+<h4>Flower.</h4>
+<p style="background-color:powderblue;">~Jisoo BLACKPINK</p>
+<audio controls>
+	<source src="images/flower.mp3" type="audio/mp3">
+</audio>
+  </div>
+  
+    <div class="w3-third">
+    <h4>Here with me.</h4>
+    <p style="background-color:powderblue;">~D4vD</p>      
+<audio controls>
+	<source src="images/here.mp3" type="audio/mp3">
+</audio>
+
+<h4>Nobody Gets Me.</h4>
+<p style="background-color:rgb(148, 167, 169);">~SZA</p>
+<audio controls>
+	<source src="images/ngm.mp3" type="audio/mp3">
+</audio>
+  </div>
+
+  
+<!-- video grid -->
+<header class="w3-center w3-margin-bottom">
+  <h1 style="color:LightSkyBlue;"><b>Videos</b></h1>
+  <p style="color:snow;"><b>Moments to be cherished.</b></p>
+
+</header>
+<div class="w3-row" id="myGrid" style="margin-bottom:500px" style="margin:500px">
+  <div class="w3-third">
+<video width="500" controls>
+  <source src="images/baby.mp4" type="video/mp4">
+  <source src="images/baby.ogg" type="video/ogg">
+  Your browser does not support HTML video.
+</video>
+<video width="500" controls>
+  <source src="images/flower.mp4" type="video/mp4">
+  <source src="images/flower.ogg" type="video/ogg">
+  Your browser does not support HTML video.
+</video>
+  </div>
+
+  <div class="w3-third">
+<video width="500" controls>
+  <source src="images/ink.mp4" type="video/mp4">
+  <source src="images/ink.ogg" type="video/ogg">
+  Your browser does not support HTML video.
+</video>
+<video width="500" controls>
+  <source src="images/abs.mp4" type="video/mp4">
+  <source src="images/abs.ogg" type="video/ogg">
+  Your browser does not support HTML video.
+</video>
+  </div>
+
+  <div class="w3-third">
+<video width="500" controls>
+  <source src="images/ice.mp4" type="video/mp4">
+  <source src="images/ice.ogg" type="video/ogg">
+  Your browser does not support HTML video.
+</video>
+<video width="500" controls>
+  <source src="images/pix.mp4" type="video/mp4">
+  <source src="images/pix.ogg" type="video/ogg">
+  Your browser does not support HTML video.
+</video>
+
+
+</div>
+<!-- End Page Content -->
+</div>
+
+ 
+<script>
+// buttom Toggle grid padding
+function myFunction() {
+  var x = document.getElementById("myGrid");
+  if (x.className === "w3-row") {
+    x.className = "w3-row-padding";
+  } else { 
+    x.className = x.className.replace("w3-row-padding", "w3-row");
+  }
+}
+</script>
+      <!-- FOOTER -->
+    <footer>
+        <div class="footer-bottom">
+			<pre>Created by <a href="#">ANDREA HANA</a> >< </pre>
+            <p>copyright &copy; 2023 </p>
+                    <div class="footer-menu">
+                      <ul class="f-menu">
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="https://nisbahbiru.blogspot.com/">Blog</a></li>
+                      </ul>
+                    </div>
+        </div>
+
+    </footer>
+</body>
+</html>

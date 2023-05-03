@@ -1,0 +1,82 @@
+body {
+  font-family: Trebuchet MS;
+  background: url('images/img1.jpg')no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: static;
+}
+
+/*body title*/
+H1 {
+  text-align: center;
+  color: #00FFFF;
+  margin:20px;
+}
+H2 {
+  text-align: left;
+  color: #FFFFFF;
+  margin-top:20px;
+}
+  ul {
+    list-style-type: none;
+    padding: 0;
+    color:#000000
+  }
+   label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+ 
+/*timetable*/
+.myTimetable {
+  width:100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.myTimetable THEAD{
+  color: #FFFFFF;
+}
+
+.myTimetable TBODY {
+  background-color: #FFFFFF;
+}
+
+.myTimetable TD {
+  border: 1px solid black;
+  padding: 6px;
+  text-align: center;
+}
+.myTimetable TBODY TR TD:first-child {
+  background-color: #87CEEB;
+  font-weight: bold;
+}
+
+.break, .lunch {
+  background-color: #87CEEB !important;
+  font-style: italic;
+}
+
+.subject {
+  font-size: 12pt;
+  margin-bottom:4px;
+}
+
+.room {
+  font-size: 10pt;
+  font-style: italic;
+}
+/*course description*/
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+	margin-bottom: 20px;
+    padding: 50px;
+    background: rgba(200, 255, 255, 0.7);
+    border-radius: 5px;
+	text-align: justify;
+  }
